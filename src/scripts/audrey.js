@@ -10,10 +10,11 @@ window.addEventListener("scroll", function () {
         `window.scrollY`. No lower than 50px, though.
     */
 
-    
+audrey.style.width = `${window.scrollY/3}`
+
 /* console.log("This is working")*/
 
-
+audrey.style.height = `${window.scrollY}`
 
     /*
         Adjust the height of audrey to be 1/4 the value of
